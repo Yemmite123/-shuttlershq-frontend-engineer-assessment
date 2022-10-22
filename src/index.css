@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    font-family: "Inter", "Helvetica", "Arial", "sans-serif";
+    text-align: left;
+    color:  #101828;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+img{
+  image-rendering: -webkit-optimize-contrast;
+}
+
+#popper[data-popper-reference-hidden=true] {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.aside::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+*::-webkit-scrollbar-button,
+body:not(._native-scrollbars) *::-webkit-scrollbar-corner {
+  display: none;
+}
+
+*::-webkit-scrollbar-button,
+body:not(._native-scrollbars) *::-webkit-scrollbar-corner {
+  display: none;
+}
+
+.aside::-webkit-scrollbar-thumb {
+  border-width: 3px;
+}
+
+*::-webkit-scrollbar-thumb {
+  min-height: 2rem;
+  background: rgb(187, 187, 187);
+  background-clip: padding-box;
+  border: 5px solid transparent;
+  border-radius: 10px;
+}
+
+.aside::-webkit-scrollbar-track {
+  background: white;
+  border: 0;
+}
+
+*::-webkit-scrollbar-track {
+  background: white;
+  border: 1px solid white;
+}
